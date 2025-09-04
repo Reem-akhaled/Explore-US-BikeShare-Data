@@ -15,17 +15,17 @@ _The program is an interactive command-line application that lets users:_
 - Trip duration statistics (total and average).
 - User demographics such as type, gender, and birth year (if available).
 
-#### 🛠️ Tools & Libraries Used
+### 🛠️ Tools & Libraries Used
 
 - Python 3
 - Libraries: pandas, numpy, time
 
-#### 📑 Dataset Description
+### 📑 Dataset Description
 
 _The datasets used in this project were provided by Motivate, a bike share system provider in the U.S.
 Each file (chicago.csv, new_york_city.csv, washington.csv) contains data for the first six months of 2017._
 
-**📊 Dataset Columns**
+**Dataset Columns**
 
 - **Start Time**	When the trip started (datetime)
 - **End Time**	When the trip ended (datetime)
@@ -38,7 +38,7 @@ Each file (chicago.csv, new_york_city.csv, washington.csv) contains data for the
 
 _Note: The Washington dataset does not include Gender or Birth Year information._
 
-#### 🖥️ Sample Output
+### 🖥️ Sample Output
 
 _Example run for Chicago with no filters:_
 
