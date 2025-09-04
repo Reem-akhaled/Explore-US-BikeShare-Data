@@ -1,12 +1,12 @@
 # 🚲 Explore US BikeShare Data
 
 _This project is part of the Udacity Programming for Data Science with Python Nanodegree.
-It explores U.S. bike share data from three cities: Chicago, New York City, and Washington.
+It explores U.S. bike share data from three cities: Chicago, New York City, and Washington._
 
-This project provides insights into how people use bike share systems in major U.S. cities 
-through a simple and interactive Python-based analysis tool.
+_This project provides insights into how people use bike share systems in major U.S. cities 
+through a simple and interactive Python-based analysis tool._
 
-The program is an interactive command-line application that lets users:_
+_The program is an interactive command-line application that lets users:_
 - Choose a city and filter data by month, day, both, or view all data.
 - View raw data in increments of 5 rows upon request.
 - Explore key statistics about bike share usage, including:
@@ -20,28 +20,29 @@ The program is an interactive command-line application that lets users:_
 - Python 3
 - Libraries: pandas, numpy, time
 
-####📑 Dataset Description
+#### 📑 Dataset Description
 
 _The datasets used in this project were provided by Motivate, a bike share system provider in the U.S.
 Each file (chicago.csv, new_york_city.csv, washington.csv) contains data for the first six months of 2017._
 
-##### 📊 Dataset Columns
-Column Name	Description
-Start Time	When the trip started (datetime)
-End Time	When the trip ended (datetime)
-Trip Duration	Total travel time in seconds
-Start Station	Name of the starting station
-End Station	Name of the ending station
-User Type	Subscriber (member) or Customer (casual rider)
-Gender (Chicago & NYC only)	Gender of the rider
-Birth Year (Chicago & NYC only)	Year of birth of the rider
+**📊 Dataset Columns**
 
-⚠️ Note: The Washington dataset does not include Gender or Birth Year information.
+- **Start Time**	When the trip started (datetime)
+- **End Time**	When the trip ended (datetime)
+- **Trip Duration**	Total travel time in seconds
+- **Start Station**	Name of the starting station
+- **End Station**	Name of the ending station
+- **User Type**	Subscriber (member) or Customer (casual rider)
+- **Gender (Chicago & NYC only)**	Gender of the rider
+- **Birth Year (Chicago & NYC only)**	Year of birth of the rider
+
+_Note: The Washington dataset does not include Gender or Birth Year information._
 
 #### 🖥️ Sample Output
 
 _Example run for Chicago with no filters:_
 
+```
 Hello! Let's explore some US bikeshare data!
 Q: Would you like to see data for Chicago, New York City, or Washington?
         chicago
