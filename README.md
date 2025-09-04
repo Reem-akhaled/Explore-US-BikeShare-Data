@@ -3,7 +3,7 @@
 _This project is part of the Udacity Programming for Data Science with Python Nanodegree.
 It explores U.S. bike share data from three cities: Chicago, New York City, and Washington._
 
-_This project provides insights into how people use bike share systems in major U.S. cities 
+_It provides insights into how people use bike share systems in major U.S. cities 
 through a simple and interactive Python-based analysis tool._
 
 _The program is an interactive command-line application that lets users:_
